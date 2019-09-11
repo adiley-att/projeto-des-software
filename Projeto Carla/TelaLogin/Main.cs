@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
+
 
 namespace TelaLogin
 {
@@ -38,6 +40,21 @@ namespace TelaLogin
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+            Quantidade quantidad = new Quantidade();
+            quantidad.Show();
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+            //aaaaaaaaaaa
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

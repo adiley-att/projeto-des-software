@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblLogged = new System.Windows.Forms.Label();
             this.bLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -68,8 +69,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -78,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -92,6 +92,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 103);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TelaLogin.Properties.Resources.kwik_e_mart_sign1;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(249, 84);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // lblLogged
             // 
@@ -294,6 +303,7 @@
             this.barroz.TabIndex = 4;
             this.barroz.Text = "Add";
             this.barroz.UseVisualStyleBackColor = true;
+            this.barroz.Click += new System.EventHandler(this.barroz_Click);
             // 
             // bfeijao
             // 
@@ -303,6 +313,7 @@
             this.bfeijao.TabIndex = 4;
             this.bfeijao.Text = "Add";
             this.bfeijao.UseVisualStyleBackColor = true;
+            this.bfeijao.Click += new System.EventHandler(this.bfeijao_Click);
             // 
             // bmacarrao
             // 
@@ -312,6 +323,7 @@
             this.bmacarrao.TabIndex = 4;
             this.bmacarrao.Text = "Add";
             this.bmacarrao.UseVisualStyleBackColor = true;
+            this.bmacarrao.Click += new System.EventHandler(this.bmacarrao_Click);
             // 
             // bovo
             // 
@@ -321,6 +333,7 @@
             this.bovo.TabIndex = 4;
             this.bovo.Text = "Add";
             this.bovo.UseVisualStyleBackColor = true;
+            this.bovo.Click += new System.EventHandler(this.bovo_Click);
             // 
             // bmaca
             // 
@@ -330,6 +343,7 @@
             this.bmaca.TabIndex = 4;
             this.bmaca.Text = "Add";
             this.bmaca.UseVisualStyleBackColor = true;
+            this.bmaca.Click += new System.EventHandler(this.bmaca_Click);
             // 
             // bxampu
             // 
@@ -339,6 +353,7 @@
             this.bxampu.TabIndex = 4;
             this.bxampu.Text = "Add";
             this.bxampu.UseVisualStyleBackColor = true;
+            this.bxampu.Click += new System.EventHandler(this.bxampu_Click);
             // 
             // bdetergente
             // 
@@ -348,6 +363,7 @@
             this.bdetergente.TabIndex = 4;
             this.bdetergente.Text = "Add";
             this.bdetergente.UseVisualStyleBackColor = true;
+            this.bdetergente.Click += new System.EventHandler(this.bdetergente_Click);
             // 
             // TxtControle
             // 
@@ -461,15 +477,6 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TelaLogin.Properties.Resources.kwik_e_mart_sign1;
-            this.pictureBox1.Location = new System.Drawing.Point(14, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 84);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
@@ -521,6 +528,7 @@
             this.Text = "Kwik-E-Mart";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -529,7 +537,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

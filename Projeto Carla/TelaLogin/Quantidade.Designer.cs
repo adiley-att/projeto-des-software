@@ -31,7 +31,7 @@
             this.bok = new System.Windows.Forms.Button();
             this.bcancela = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtquant = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // bok
@@ -64,12 +64,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Digite a quantidade desejada";
             // 
-            // textBox1
+            // txtquant
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(44, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtquant.Location = new System.Drawing.Point(147, 53);
+            this.txtquant.Name = "txtquant";
+            this.txtquant.Size = new System.Drawing.Size(44, 20);
+            this.txtquant.TabIndex = 2;
+            this.txtquant.Text = "1";
+            this.txtquant.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtquant.TextChanged += new System.EventHandler(this.txtquant_TextChanged);
             // 
             // Quantidade
             // 
@@ -78,7 +81,7 @@
             this.CancelButton = this.bcancela;
             this.ClientSize = new System.Drawing.Size(342, 127);
             this.ControlBox = false;
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtquant);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bcancela);
             this.Controls.Add(this.bok);
@@ -96,6 +99,6 @@
         private System.Windows.Forms.Button bok;
         private System.Windows.Forms.Button bcancela;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtquant;
     }
 }

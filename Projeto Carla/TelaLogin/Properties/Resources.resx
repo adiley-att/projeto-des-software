@@ -118,37 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="maça" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maça.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="xampu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xampu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="feijao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\feijao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Arroz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Arroz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="banana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banana1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="manga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kwik-e-mart-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kwik-e-mart-sign.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="macarrao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macarrao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="maça" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maça.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\banana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ovo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kwik-e-mart-sign1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kwik-e-mart-sign1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cuzcuz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuzcuz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arroz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arroz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="detergent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\detergent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banana1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="feijao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\feijao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macarrao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macarrao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

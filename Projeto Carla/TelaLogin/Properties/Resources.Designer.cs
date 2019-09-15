@@ -93,6 +93,16 @@ namespace TelaLogin.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cuzcuz {
+            get {
+                object obj = ResourceManager.GetObject("cuzcuz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap detergent {
             get {
                 object obj = ResourceManager.GetObject("detergent", resourceCulture);
@@ -133,6 +143,16 @@ namespace TelaLogin.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap leite {
+            get {
+                object obj = ResourceManager.GetObject("leite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maça {
             get {
                 object obj = ResourceManager.GetObject("maça", resourceCulture);
@@ -153,9 +173,29 @@ namespace TelaLogin.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap manga {
+            get {
+                object obj = ResourceManager.GetObject("manga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ovo {
             get {
                 object obj = ResourceManager.GetObject("ovo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pao {
+            get {
+                object obj = ResourceManager.GetObject("pao", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

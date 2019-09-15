@@ -120,6 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\pao.png" />
+    <None Include="Resources\leite.png" />
+    <None Include="Resources\cuzcuz.png" />
+    <None Include="Resources\manga.png" />
     <None Include="Resources\detergent.png" />
     <None Include="Resources\xampu.jpg" />
     <None Include="Resources\maça.jpg" />

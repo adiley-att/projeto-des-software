@@ -128,11 +128,15 @@ namespace TelaLogin
 
         //Botão de Login
 
+        string usu = "";
+        bool logged = false;
+
         private void bLogin_Click(object sender, EventArgs e)
         {
             login login = new login();
             login.ShowDialog();
-            string usu = login.usuario;
+            usu = login.usuario;
+            logged = true;
             bLogin.Visible = false;
             lblLogged.Text = ("Bem vindo " + usu + "!");
             lblLogged.Visible = true;
@@ -251,6 +255,36 @@ namespace TelaLogin
             showtprice(12);
         }
 
-        
+        private void badd_Click(object sender, EventArgs e)
+        {
+            Addporcod addporcod = new Addporcod();
+            addporcod.ShowDialog();
+
+            quant = addporcod.quant;
+            int id = addporcod.cod;
+
+            TxtControle.Text = TxtControle.Text + "\n quantidade: " + quant + " | ";
+            showname(id);
+            showprice(id);
+            showtprice(id);
+        }
+
+        private void bremove_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bfinalizar_Click(object sender, EventArgs e)
+        {
+            if (logged == true)
+            {
+                TxtControle.Text = TxtControle.Text + "\n Cliente: " + usu + " | valor total: " + valortotal;
+            }
+            else
+            {
+                MessageBox.Show("Você deve efetuar login antes de fazer um pedido");
+            }
+            
+        }
     }
 }

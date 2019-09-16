@@ -147,6 +147,7 @@
             // 
             // login
             // 
+            this.AcceptButton = this.blogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(351, 335);

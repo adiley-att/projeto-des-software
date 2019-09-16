@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblLogged = new System.Windows.Forms.Label();
             this.bLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -69,6 +68,10 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.bmanga = new System.Windows.Forms.Button();
+            this.bcuzcuz = new System.Windows.Forms.Button();
+            this.bleite = new System.Windows.Forms.Button();
+            this.bpao = new System.Windows.Forms.Button();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -81,12 +84,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bmanga = new System.Windows.Forms.Button();
-            this.bcuzcuz = new System.Windows.Forms.Button();
-            this.bleite = new System.Windows.Forms.Button();
-            this.bpao = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -99,6 +98,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -112,15 +112,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 103);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TelaLogin.Properties.Resources.kwik_e_mart_sign1;
-            this.pictureBox1.Location = new System.Drawing.Point(14, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(249, 84);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // lblLogged
             // 
@@ -394,6 +385,7 @@
             this.bfinalizar.TabIndex = 15;
             this.bfinalizar.Text = "Finalizar pedido";
             this.bfinalizar.UseVisualStyleBackColor = true;
+            this.bfinalizar.Click += new System.EventHandler(this.bfinalizar_Click);
             // 
             // bremove
             // 
@@ -403,6 +395,7 @@
             this.bremove.TabIndex = 14;
             this.bremove.Text = "Remover Item";
             this.bremove.UseVisualStyleBackColor = true;
+            this.bremove.Click += new System.EventHandler(this.bremove_Click);
             // 
             // badd
             // 
@@ -412,6 +405,7 @@
             this.badd.TabIndex = 13;
             this.badd.Text = "Adicionar por Código";
             this.badd.UseVisualStyleBackColor = true;
+            this.badd.Click += new System.EventHandler(this.badd_Click);
             // 
             // label1
             // 
@@ -484,6 +478,46 @@
             this.label24.Size = new System.Drawing.Size(42, 22);
             this.label24.TabIndex = 3;
             this.label24.Text = "6,50";
+            // 
+            // bmanga
+            // 
+            this.bmanga.Location = new System.Drawing.Point(56, 573);
+            this.bmanga.Name = "bmanga";
+            this.bmanga.Size = new System.Drawing.Size(53, 30);
+            this.bmanga.TabIndex = 9;
+            this.bmanga.Text = "Add";
+            this.bmanga.UseVisualStyleBackColor = true;
+            this.bmanga.Click += new System.EventHandler(this.bmanga_Click_1);
+            // 
+            // bcuzcuz
+            // 
+            this.bcuzcuz.Location = new System.Drawing.Point(184, 573);
+            this.bcuzcuz.Name = "bcuzcuz";
+            this.bcuzcuz.Size = new System.Drawing.Size(51, 30);
+            this.bcuzcuz.TabIndex = 10;
+            this.bcuzcuz.Text = "Add";
+            this.bcuzcuz.UseVisualStyleBackColor = true;
+            this.bcuzcuz.Click += new System.EventHandler(this.bcuzcuz_Click);
+            // 
+            // bleite
+            // 
+            this.bleite.Location = new System.Drawing.Point(308, 573);
+            this.bleite.Name = "bleite";
+            this.bleite.Size = new System.Drawing.Size(51, 30);
+            this.bleite.TabIndex = 11;
+            this.bleite.Text = "Add";
+            this.bleite.UseVisualStyleBackColor = true;
+            this.bleite.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // bpao
+            // 
+            this.bpao.Location = new System.Drawing.Point(430, 573);
+            this.bpao.Name = "bpao";
+            this.bpao.Size = new System.Drawing.Size(51, 30);
+            this.bpao.TabIndex = 12;
+            this.bpao.Text = "Add";
+            this.bpao.UseVisualStyleBackColor = true;
+            this.bpao.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox13
             // 
@@ -593,45 +627,14 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // bmanga
+            // pictureBox1
             // 
-            this.bmanga.Location = new System.Drawing.Point(56, 573);
-            this.bmanga.Name = "bmanga";
-            this.bmanga.Size = new System.Drawing.Size(53, 30);
-            this.bmanga.TabIndex = 9;
-            this.bmanga.Text = "Add";
-            this.bmanga.UseVisualStyleBackColor = true;
-            this.bmanga.Click += new System.EventHandler(this.bmanga_Click_1);
-            // 
-            // bcuzcuz
-            // 
-            this.bcuzcuz.Location = new System.Drawing.Point(184, 573);
-            this.bcuzcuz.Name = "bcuzcuz";
-            this.bcuzcuz.Size = new System.Drawing.Size(51, 30);
-            this.bcuzcuz.TabIndex = 10;
-            this.bcuzcuz.Text = "Add";
-            this.bcuzcuz.UseVisualStyleBackColor = true;
-            this.bcuzcuz.Click += new System.EventHandler(this.bcuzcuz_Click);
-            // 
-            // bleite
-            // 
-            this.bleite.Location = new System.Drawing.Point(308, 573);
-            this.bleite.Name = "bleite";
-            this.bleite.Size = new System.Drawing.Size(51, 30);
-            this.bleite.TabIndex = 11;
-            this.bleite.Text = "Add";
-            this.bleite.UseVisualStyleBackColor = true;
-            this.bleite.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // bpao
-            // 
-            this.bpao.Location = new System.Drawing.Point(430, 573);
-            this.bpao.Name = "bpao";
-            this.bpao.Size = new System.Drawing.Size(51, 30);
-            this.bpao.TabIndex = 12;
-            this.bpao.Text = "Add";
-            this.bpao.UseVisualStyleBackColor = true;
-            this.bpao.Click += new System.EventHandler(this.button2_Click);
+            this.pictureBox1.Image = global::TelaLogin.Properties.Resources.kwik_e_mart_sign1;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(249, 84);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Main
             // 
@@ -700,7 +703,6 @@
             this.Text = "Kwik-E-Mart";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -713,6 +715,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

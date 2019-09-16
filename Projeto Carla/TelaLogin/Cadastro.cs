@@ -80,6 +80,7 @@ namespace TelaLogin
                 }
 
                 MessageBox.Show("Sucesso!");
+                this.Dispose();
             }
 
         }

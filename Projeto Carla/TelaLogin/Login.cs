@@ -43,6 +43,8 @@ namespace TelaLogin
             }
         }
 
+        // mais coisa q nao sou corno pra explicar
+
         private void blogin_Click(object sender, EventArgs e)
         {
             try

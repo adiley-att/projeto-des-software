@@ -24,6 +24,8 @@ namespace TelaLogin
 
         }
 
+        //essa parte é chata de explicar entao se quiser saber como funciona me pergunta q eu mando vc aprender sozinho lixo
+
         private void blogin_Click(object sender, EventArgs e)
         {
             string myConnection = "datasource=localhost;port=3306;username=root;password=root";
@@ -84,6 +86,8 @@ namespace TelaLogin
             }
 
         }
+
+        //o bagulhinho de mostrar a senha
 
         private void showPassword_CheckedChanged(object sender, EventArgs e)
         {

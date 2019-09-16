@@ -17,6 +17,7 @@ namespace TelaLogin
             InitializeComponent();
         }
 
+        // as variaveis são declaradas com public pra q possam ser acessadas por outros formulários
         public int quant = 0;
         public int cod = 0;
 

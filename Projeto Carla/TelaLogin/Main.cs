@@ -27,9 +27,9 @@ namespace TelaLogin
 
         public void showquant()
         {
-            Quantidade quantidad = new Quantidade();
+            Quantidade quantidad = new Quantidade(); //Pra quem nao sabe, é assim q se chama uma form (vcs vao ver isso em outra parte do codigo)
             quantidad.ShowDialog();
-            quant = quantidad.unidades;
+            quant = quantidad.unidades; //Isso aqui pra quem n sabe é a forma de acessar variáveis de outra form
             TxtControle.Text = TxtControle.Text + "\n quantidade: " + quant + " | ";
         }
 
@@ -37,6 +37,7 @@ namespace TelaLogin
 
         public string showname(int id)
         {
+            //Isso aqui vai aparecer em outras partes do código tb, é apenas eu abrindo a conexao com o banco e enviando o comando, coisa simples de entender
             string myConnection = "datasource=localhost;port=3306;username=root;password=root";
 
             MySqlConnection myConn = new MySqlConnection(myConnection);
@@ -128,7 +129,7 @@ namespace TelaLogin
 
         //Botão de Login
 
-        string usu = "";
+        string usu = ""; //Variável pra verificar se eu fiz login ou não e o nome do delinquente q fez login
         bool logged = false;
 
         private void bLogin_Click(object sender, EventArgs e)
@@ -255,6 +256,8 @@ namespace TelaLogin
             showtprice(12);
         }
 
+        //Botão de adicionar por código
+
         private void badd_Click(object sender, EventArgs e)
         {
             Addporcod addporcod = new Addporcod();
@@ -269,10 +272,14 @@ namespace TelaLogin
             showtprice(id);
         }
 
+        //Isso seria o botão de remover
+
         private void bremove_Click(object sender, EventArgs e)
         {
-
+           // MessageBox.Show("removido troxa");
         }
+
+        //botão de finalizar compra (agora q prestei atenção ta incompleto mas n vai ser agora q vou fazer essa merda nao)
 
         private void bfinalizar_Click(object sender, EventArgs e)
         {
